@@ -43,4 +43,18 @@ a{
     background-size: cover;
     height: 100%;
     overflow: hidden;
+}
+
+.section-interests {
+    background:linear-gradient(0deg, rgba(50,50,50, 0.7), rgba(50,50,50, 0.7)), url(../assets/img/interests.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+ }
+
+ .section-awards {
+    background:linear-gradient(0deg, rgba(50,50,50, 0.7), rgba(50,50,50, 0.7)), url(../assets/img/awards.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
  }
