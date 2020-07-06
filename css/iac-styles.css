@@ -1,4 +1,18 @@
-/*General Designs*/
+/*Override Designs*/
+.bg-primary{
+    background-color: #0c1c59 !important;
+}
+
+
+.social-icons .social-icon:hover {
+    background-color: #0099ff !important;
+}
+
+.dev-icons {
+    color: #ffffff !important;
+}
+
+/*Colors*/
 .bg-primary-iac {
     background-color: #0099ff;
 }
@@ -11,12 +25,16 @@
     color: #dd7514;
 }
 
-a {
-    color: #0099ff;
+.text-black {
+    color: #000;
 }
 
-.dev-icons {
-    color: #ffffff !important;
+.bg-pasigassist {
+    background-color: #196703;
+}
+
+a {
+    color: #0099ff;
 }
 
 .text-small {
@@ -61,6 +79,13 @@ a {
 
 .section-awards {
     background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/awards.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+.section-projects {
+    background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/projects.jpeg) no-repeat;
     background-size: cover;
     height: 100%;
     overflow: hidden;
