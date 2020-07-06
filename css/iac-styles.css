@@ -12,6 +12,15 @@
     color: #ffffff !important;
 }
 
+a {
+    color: #0099ff !important;
+}
+
+a:hover {
+    color: #0099ff !important;
+    text-decoration: underline;
+}
+
 /*Colors*/
 .bg-primary-iac {
     background-color: #0099ff;
@@ -31,10 +40,6 @@
 
 .bg-pasigassist {
     background-color: #196703;
-}
-
-a {
-    color: #0099ff;
 }
 
 .text-small {
