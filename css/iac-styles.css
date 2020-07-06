@@ -1,64 +1,112 @@
-.bg-primary-iac{
+/*General Designs*/
+.bg-primary-iac {
     background-color: #0099ff;
 }
 
-.text-primary-iac{
+.text-primary-iac {
     color: #0099ff;
 }
 
-.text-secondary-iac{
+.text-secondary-iac {
     color: #dd7514;
 }
 
-a{
+a {
     color: #0099ff;
 }
 
-.dev-icons{
+.dev-icons {
     color: #ffffff !important;
 }
 
-.text-small{
+.text-small {
     font-size: small;
 }
 
 /* Backgrounds */
-
 .section-about {
-    background:linear-gradient(0deg, rgba(50,50,50, 0.7), rgba(50,50,50, 0.7)), url(../assets/img/about.jpg) no-repeat fixed center;
+    background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/about.jpg) no-repeat fixed center;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.section-experience {
+    background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/experience.jpg) no-repeat fixed center;
+    background-size: cover;
     height: 100%;
     overflow: hidden;
- }
+}
 
- .section-experience {
-    background:linear-gradient(0deg, rgba(50,50,50, 0.7), rgba(50,50,50, 0.7)), url(../assets/img/experience.jpg) no-repeat fixed center;
+.section-education {
+    background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/education.jpg) no-repeat fixed center;
+    background-size: cover;
     height: 100%;
     overflow: hidden;
- }
+}
 
- .section-education {
-    background:linear-gradient(0deg, rgba(50,50,50, 0.7), rgba(50,50,50, 0.7)), url(../assets/img/education.jpg) no-repeat fixed center;
-    height: 100%;
-    overflow: hidden;
- }
-
- .section-skills {
-    background:linear-gradient(0deg, rgba(50,50,50, 0.7), rgba(50,50,50, 0.7)), url(../assets/img/skills.jpg) no-repeat fixed center;
+.section-skills {
+    background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/skills.jpg) no-repeat fixed center;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 .section-interests {
-    background:linear-gradient(0deg, rgba(50,50,50, 0.7), rgba(50,50,50, 0.7)), url(../assets/img/interests.png) no-repeat;
+    background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/interests.png) no-repeat;
     background-size: cover;
     height: 100%;
     overflow: hidden;
- }
+}
 
- .section-awards {
-    background:linear-gradient(0deg, rgba(50,50,50, 0.7), rgba(50,50,50, 0.7)), url(../assets/img/awards.jpg) no-repeat;
+.section-awards {
+    background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/awards.jpg) no-repeat;
     background-size: cover;
     height: 100%;
     overflow: hidden;
- }
+}
+
+/* Mobile Layouts */
+@media (max-width: 1000px) {
+    .section-about {
+        background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/about.jpg) no-repeat fixed center;
+        background-size: cover;
+        height: 50%;
+        overflow: hidden;
+    }
+
+    .section-experience {
+        background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/experience.jpg) no-repeat fixed center;
+        background-size: cover;
+        height: 50%;
+        overflow: hidden;
+    }
+
+    .section-education {
+        background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/education.jpg) no-repeat fixed center;
+        background-size: cover;
+        height: 50%;
+        overflow: hidden;
+    }
+
+    .section-skills {
+        background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/skills.jpg) no-repeat fixed center;
+        background-size: cover;
+        height: 50%;
+        overflow: hidden;
+    }
+
+    .section-interests {
+        background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/interests.png) no-repeat fixed center;
+        background-size: cover;
+        height: 50%;
+        overflow: hidden;
+    }
+
+    .section-awards {
+        background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/awards.jpg) no-repeat fixed right;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+}
