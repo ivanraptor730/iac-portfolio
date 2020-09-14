@@ -1,5 +1,5 @@
 /*Override Designs*/
-.bg-primary{
+.bg-primary {
     background-color: #0c1c59 !important;
 }
 
@@ -48,93 +48,103 @@ a:hover {
 
 /* Backgrounds */
 .section-about {
-    background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/about.jpg) no-repeat fixed center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/about.jpg) no-repeat fixed center;
     height: 100%;
+    width: 100%;
     background-size: cover;
     overflow: hidden;
+    
 }
 
 .section-experience {
-    background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/experience.jpg) no-repeat fixed center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/experience.jpg) no-repeat fixed center;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 .section-education {
-    background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/education.jpg) no-repeat fixed center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/education.jpg) no-repeat fixed center;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 .section-skills {
-    background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/skills.jpg) no-repeat fixed center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/skills.jpg) no-repeat fixed center;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 .section-interests {
-    background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/interests.png) no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/interests.png) no-repeat;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 .section-awards {
-    background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/awards.jpg) no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/awards.jpg) no-repeat;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 .section-projects {
-    background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/projects.jpeg) no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/projects.jpeg) no-repeat;
     background-size: cover;
     height: 100%;
+    width: 100%;
     overflow: hidden;
 }
 
 /* Mobile Layouts */
 @media (max-width: 1000px) {
     .section-about {
-        background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/about.jpg) no-repeat fixed center;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/about.jpg) no-repeat fixed center;
         background-size: cover;
         height: 50%;
         overflow: hidden;
     }
 
     .section-experience {
-        background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/experience.jpg) no-repeat fixed center;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/experience.jpg) no-repeat fixed center;
         background-size: cover;
         height: 50%;
         overflow: hidden;
     }
 
     .section-education {
-        background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/education.jpg) no-repeat fixed center;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/education.jpg) no-repeat fixed center;
         background-size: cover;
         height: 50%;
         overflow: hidden;
     }
 
     .section-skills {
-        background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/skills.jpg) no-repeat fixed center;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/skills.jpg) no-repeat fixed center;
         background-size: cover;
         height: 50%;
         overflow: hidden;
     }
 
     .section-interests {
-        background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/interests.png) no-repeat fixed center;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/interests.png) no-repeat fixed center;
         background-size: cover;
         height: 50%;
         overflow: hidden;
     }
 
     .section-awards {
-        background: linear-gradient(0deg, rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url(../assets/img/awards.jpg) no-repeat fixed right;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/awards.jpg) no-repeat fixed right;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .section-projects {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/projects.jpeg) no-repeat fixed;
         background-size: cover;
         height: 100%;
         overflow: hidden;
