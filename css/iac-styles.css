@@ -78,21 +78,21 @@ a:hover {
 }
 
 .section-interests {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/interests.png) no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/interests.png) no-repeat fixed left;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 .section-awards {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/awards.jpg) no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/awards.jpg) no-repeat fixed center;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
 
 .section-projects {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/projects.jpeg) no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/projects.jpeg) no-repeat fixed center;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -130,7 +130,7 @@ a:hover {
     }
 
     .section-interests {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/interests.png) no-repeat fixed center;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/interests.png) no-repeat fixed left;
         background-size: cover;
         height: 50%;
         overflow: hidden;
@@ -144,7 +144,7 @@ a:hover {
     }
 
     .section-projects {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/projects.jpeg) no-repeat fixed;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/projects.jpeg) no-repeat fixed center;
         background-size: cover;
         height: 100%;
         overflow: hidden;
